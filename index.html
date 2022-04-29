@@ -7,45 +7,94 @@
     <title>Document</title>
   </head>
   <body>
-    <pre>
-    Headings- there are 6 types of headings h1 to h6,
-               h1-highest heading
-               h6-lowest headings
-    Tag- Tag is which enclosed between opening and closing brackets.
-        ex:<p>,</p>
-    Element- Its is an combination of both tag and content.
-        ex:<p>content</p>
-    Paragraph- Ptypes is an paragraph tag which is used for writing paragarphs in our websites
+    Radio Buttons:Radio Buttons is used for selectiong only one option
+    Checkbox:Which is used to select Multiple Options In radio buttons name
+    should be same
 
-    Absolute path- which will be having complete url
-         ex: Online images and from our c drive
-         alt attribute-helps as an alternative text when the image is not displayed
+    <form action="">
+      <input type="radio" name="elevation" id="html" value="html" />
+      <label for="html">Html</label><br />
 
-    Relative path- which is related to current documentary
-          
-    Lists- 3 types
-         ordered Lists- ol tag- 5 types
-            1.number(default)
-            2.capital alphabets
-            3.small alphabets
-            4.capital romans
-            5.small romans.
-         unordered lists-ul tag- 4 types
-            1.circle
-            2.square
-            3.disc(default)
-            4.none.
-         description list- dl dd dt.
-    
-    Block -it is which occupies 100% width and always comes in a new line
-         ex: p, div , h1 to h6.
+      <input type="radio" name="elevation" id="css" value="css" />
+      <label for="css">css</label><br />
 
-    Inline- which will occupy only required space
-          ex- span, em, strong etc..
-WORK-https://codepen.io/freeCodeCamp/full/zNqgVx
+      <input type="radio" name="elevation" id="js" value="js" />
+      <label for="js">js</label><br />
 
-    Forms- To capture the data or collect the information or data from user
-    -->label tag used to display name which is given.
-    </pre>
+      <input type="submit" />
+    </form>
+
+    <form action="index2.html">
+      <input type="checkbox" name="elevation" id="html" value="html" />
+      <label for="html">Html</label><br />
+
+      <input type="checkbox" name="elevation2" id="css" value="css" />
+      <label for="css">css</label><br />
+
+      <input type="checkbox" name="elevation3" id="js" value="js" />
+      <label for="js">js</label><br />
+
+      <input type="submit" />
+    </form>
+
+    <form action="">
+      <label for="drop">Select the Below Course </label>
+
+      <select name="dropdown" id="drop">
+        <option value="HTML">HTML</option>
+
+        <option value="CSS">CSS</option>
+
+        <option value="JAVASCRIPT">JAVASCRIPT</option>
+
+        <option value="REACT">REACT</option>
+
+        <option value="NODEJS">NODEJS</option>
+
+        <option value="EXPRESS JS">EXPRESS JS</option>
+
+        <option value="MONGO DB">MONGO DB</option>
+
+        <input type="submit" />
+      </select>
+    </form>
+
+    Tables :Whenever we want to say information to our clients in tabular manner
+    then we are going to use tables table ,tr is an table row,td which is known
+    as table data ,th is known for table heading
+
+    <table
+      border="3px"
+      width="500px"
+      height="150px"
+      style="font-weight: bolder"
+      align="center"
+    >
+      <tr>
+        <td>column1</td>
+
+        <td>column2</td>
+
+        <td>column3</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Row1 cell1</td>
+
+        <td>Row1 cell2</td>
+
+        <td>Row1 cell3</td>
+      </tr>
+
+      <tr>
+        <td>Row2 cell2</td>
+
+        <td>Row2 cell3</td>
+      </tr>
+
+      <tr>
+        <td colspan="3">Row3 cell1</td>
+      </tr>
+    </table>
   </body>
 </html>
