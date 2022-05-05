@@ -1,39 +1,20 @@
-#text{
 
-    color: brown;
-    background-color: blueviolet;
-    }
-    
-    #text2{
-    
-    
-        border: 2px solid red;
-        height: 100px;
-        width: 100px;
-    }
-    
-    
-    .box{
-    
-        color: green;
-        background-color: aquamarine;
-    }
-    
-    
-    .box2{
-    
-    
-        border: 2px solid red;
-        height: 100px;
-        width: 100px;
-    }
-    .random{
-    
-    
-    height: 50px;
-    width: 100px;
-    border: 2px solid blueviolet;
-    margin: 150px;
-    padding: 50px;
-    
-    }
+.container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+   
+   
+   }
+   
+   .box{
+   
+   height: 150px;
+   width: 200px;
+   background-color: aquamarine;
+   border: 2px solid red;
+   
+   
+   }
